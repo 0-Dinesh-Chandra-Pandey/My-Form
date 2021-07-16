@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(bgimage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+ /* OverLay */
+ #overlay {
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     background-color: white;
+     opacity: 0.5;
+ }
+
+/* Form Area */
+
+
+/* Form box  */
+
+#frm {
+    margin: 40px 60px;
+    padding: 50px;
+    float: right;
+    background-color: whitesmoke;
+    box-shadow: 6px 8px 4px #1f1f1f;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+
+/* heading Area  */
+
+#heading_form_div {
+    text-align: center;
+}
+
+
+/* Heading  */
+
+#heading_form {
+    font-size: 4em;
+    font-family: sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    text-shadow: 2px 3px 1px #928585;
+}
+
+
+/* Input Area  */
+
+#center_form {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Label  */
+
+.label_form {
+    margin: 6px;
+    font-size: 1.5em;
+    font-weight: 550;
+    font-family: sans-serif;
+    float: left;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* Input */
+
+.form_input {
+    margin: 5px;
+    padding: 10px;
+    width: 85%;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    z-index: 1;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 2px;
+}
+
+
+/* Input Button */
+
+.form_input_btn {
+    margin: 8px;
+    padding: 10px;
+    width: 75%;
+    font-size: 1.3em;
+    font-weight: 900;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    font-family: "Roboto Slab", serif;
+    transition: 0.2s;
+}
+
+
+/* Chrome Default Remove  */
+
+.form_input:focus {
+    outline: none;
+}
+
+
+/* Button On Active  */
+
+.form_input_btn:active {
+    background-color: black;
+    color: white;
+}
+
+
+/* Input Placeholder  */
+
+::placeholder {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+/* Thought Area */
+
+
+/* Thought Box  */
+
+#atract {
+    margin: 10px 40px;
+    padding: 40px;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+
+/* Connect With Us Part */
+
+#connect_div {
+    min-width: 400px;
+}
+
+#connect {
+    margin: 8px;
+    width: auto;
+    margin-bottom: 15px;
+    font-size: 3.5rem;
+    font-weight: 550;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Archivo', sans-serif; 
+    color: #fd591d;
+    text-shadow: 2px 3px 2px black;
+    text-align: center;
+}
+
+
+/* Thought Part  */
+
+#thought {
+    margin: 8px;
+    padding: 4px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: #3291b6;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+/* Partation */
+#author_line {
+    margin: 14px auto;
+    height: 2px;
+    width: 60%;
+    background-color: #941a84;
+    border: none;
+    box-shadow: 1px 2px 1px black;
+}
+
+
+#Author {
+    text-decoration: none;
+    color: #7be01c;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+#author_proffesion {
+    font-size: 0.9em;
+    font-family: 'Roboto Slab', serif;
+}
+
+#footer {
+    margin-top: auto;
+    width: 100vw;
+    height: 5rem;
+    background-color: black;
+    color: white;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    line-height: 5rem;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 1110px) {
+    
+    #heading_div_form {
+        text-align: center;
+    }
+
+    #heading_form {
+        font-size: 3em;
+    }
+
+    .label_form {
+        font-size: 1.5em;
+    }
+}
+
+
+@media only screen and (max-width: 1155px) {
+    #connect {
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+}
+
+@media only screen and (max-width: 1115px) {
+    #thought {
+        margin: 10px 20px;
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    #thought {
+        word-spacing: 1.5px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    #atract {
+        margin: 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #atract {
+        margin: 10px 5px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    #atract {
+        margin: 10px -35px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    #atract {
+        margin: 10px -50px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #atract {
+        margin: 10px -70px;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    #frm {
+        width: 80%;
+    }
+
+    #heading_form {
+        font-size: 4em;
+    }
+
+    .label_form {
+        font-weight: 900;
+    }
+
+    .form_input {
+        border-bottom: 3px solid black;
+    }
+
+    #atract {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    #frm {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    #heading_form {
+        font-size: 2.7em;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #frm {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    #heading_div_form {
+        text-align: center;
+    }
+
+    #heading_form {
+        font-size: 2.5em;
+        font-weight: 900;
+        text-shadow: none;
+    }
+
+    .label_form {
+        font-size: 1em;
+        word-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #frm {
+        margin: 10px 20px;
+    }
+    #heading_form {
+        font-size: 2em;
+    }
+
+    #center_form {
+        padding: 0px;
+    }
+
+    .label_form {
+        word-spacing: 1px;
+        padding: 0px;
+        text-align: none;
+    }
+
+    #footer {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #frm {
+        width: 100%;
+        margin: 0px;
+    }
+    .form_input {
+        width: 60%;
+    }
+    #center_form {
+        float: none;
+        text-align: center;
+    }
+    .label_form {
+        text-align: center;
+    }
+
+}
+
+/* scrollbar code  */
+ ::-webkit-scrollbar {
+     background-color: whitesmoke;
+     width: 10px;
+     z-index: -1;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background-color: #353030;
+ }
